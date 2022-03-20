@@ -20,6 +20,7 @@ Graduated from BSEU. At the moment I am fond of everything related to the web an
 ---
 ###Skills
 
+
 ◾◾◾◽◽ HTML 
 ◾◾◾◽◽CSS (SCSS, SASS, LESS)
 ◾◾◾◽◽ JavaScript 
