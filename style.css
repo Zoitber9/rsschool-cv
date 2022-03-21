@@ -47,7 +47,6 @@ body {
   box-shadow: 0 35px 55px rgba(0, 8, 0, 0.1);
   margin: 50px;
 }
-
 .container .left_side {
   position: relative;
   background: linear-gradient(45deg, #bac8e0, #6a85a9);
