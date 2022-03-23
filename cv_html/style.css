@@ -1,0 +1,213 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+h1 {
+  color: #494d4e;
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 28px;
+}
+.hard_skills ul li {
+  font-size: 22px;
+}
+
+.interests ul li {
+  font-size: 22px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 8, 0, 0.1);
+  margin: 50px;
+}
+.container .left_side {
+  position: relative;
+  background: linear-gradient(45deg, #bac8e0, #6a85a9);
+  padding: 40px;
+}
+.left_side {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.photo__img {
+  margin: 0 auto;
+  margin-top:25px;
+  border-radius: 50%;
+}
+
+.profile__photo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.left_side h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.right_side {
+  margin-left: 40px;
+}
+
+.skills h3 {
+  color: #494d4e;
+}
+
+.tel::before {
+  position: relative;
+  content: url(assets/icons/icons8-телефон-25.png);
+  top: 5px;
+}
+.link li a {
+  line-height: 2;
+}
+
+
+
+.vk::before {
+  position: relative;
+  content: url(./assets/icons/icons8-vk-в-круге-25.png);
+  top: 5px;
+}
+.mail::before {
+  position: relative;
+  content: url(./assets/icons/icons8-почта-25.png);
+  top: 5px;
+}
+.disc::before {
+  position: relative;
+  content: url(./assets/icons/icons8-discord-25\ \(1\).png);
+  top: 5px;
+}
+
+.container .right_side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.right_side h1 {
+  margin-top: 100px;
+  line-height: 1.1;
+}
+
+.prof {
+  font-size: 18px;
+  color: grey;
+}
+
+.skills {
+  margin-top: 50px;
+  color: rgb(49, 41, 41);
+  line-height: 2;
+}
+
+.courses {
+  margin-top: 50px;
+  color: rgb(49, 41, 41);
+  line-height: 2;
+}
+
+.courses h3 {
+  color: #494d4e;
+}
+
+.bseu {
+  font-weight: bold;
+}
+
+.education {
+  margin-top: 50px;
+}
+.education h3::before {
+  content: url(assets/icons/icons8-образование-50.png);
+  position: relative;
+  top: 10px;
+  right: 15px;
+}
+
+.education h3 {
+  margin-left: 12px;
+  color: #494d4e;
+}
+
+
+.dat {
+  opacity: 0.5;
+}
+
+.language {
+  margin-top: 50px;
+}
+
+.language h3 {
+  color: #494d4e;
+}
+
+.gith {
+  margin-left: 500px;
+  margin-top: 70px;
+}
+.soft__s {
+  margin-right: 20px;
+}
+.soft__s::before {
+  content: url(assets/icons/icons8-пользователь-50.png);
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+.courses h3::before {
+  content: url(assets/icons/icons8-курсы-40.png);
+  position: relative;
+  top: 10px;
+  right: 15px;
+}
+.courses h3 {
+  margin-left: 12px;
+  color: #494d4e;
+}
+
+
+.language h3::before {
+  content: url(assets/icons/icons8-язык-40.png);
+  position: relative;
+  top: 10px;
+  right: 15px;
+}
+
+.language h3{
+  margin-left: 12px;
+}
